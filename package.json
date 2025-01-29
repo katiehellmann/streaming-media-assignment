@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "node": "^18.20.6"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.31.0"
+  },
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "a rmwd2 practice exercise",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "\"echo \\\"tests complete\\\"\""
+  },
+  "author": "katiehellmann",
+  "license": "ISC"
+}
