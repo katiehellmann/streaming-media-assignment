@@ -14,7 +14,7 @@
   "scripts": {
     "start": "node ./src/server.js",
     "pretest": "eslint ./src --fix",
-    "test": "\"echo \\\"tests complete\\\"\""
+    "test": "\"echo \"tests complete\"\""
   },
   "author": "katiehellmann",
   "license": "ISC"
